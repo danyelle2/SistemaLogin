@@ -30,7 +30,8 @@ namespace SistemaLogin
             }
             else 
             {
-                iblMensage.Text = "usuário ou senha inválido!";
+                mensagem.Text = "usuário ou senha inválido!";
+                mensagem.Visible = true;
             }
         }
 
